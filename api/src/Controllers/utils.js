@@ -1,6 +1,6 @@
 const axios = require("axios");
 const { Activity, Country } = require("../db");
-require('dotenv')
+require('dotenv').config();
 
 const loadDB = async () => {
   const apiUrl = await axios.get("https://restcountries.com/v3/all");
