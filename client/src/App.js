@@ -7,7 +7,7 @@ import Detail  from './components/Detail';
 import Error404 from './components/Error404'
 import Loading from './components/Loading';
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:3001/'
+axios.defaults.baseURL = 'https://pi-countries-deploy-6t7ni8l99-sergiozampieri.vercel.app/'
 
 function App() {
   return (
