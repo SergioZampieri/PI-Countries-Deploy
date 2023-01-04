@@ -1,0 +1,38 @@
+.maindiv{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+.image{
+    background-image: url('../Images/loading.png');
+  background-repeat:no-repeat;
+  width: 350px;
+  height: 350px;
+  animation: rotation 5s infinite linear
+  
+  
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.filter{
+    color: #090909;
+    padding: 0.7em 1.7em;
+    margin: 35px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }

@@ -1,0 +1,69 @@
+.Card {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.filter{
+    color: #090909;
+    padding: 0.7em 1.7em;
+    margin: 35px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+
+.select{
+    color: #090909;
+    padding: 0.7em 1.7em;
+    margin: 35px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding: 2px;
+}
+
+
+.maindiv{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(79deg, #fcfced, #fcedfc 48%, #ebf6ff);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
