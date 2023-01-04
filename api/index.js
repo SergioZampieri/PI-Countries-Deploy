@@ -23,12 +23,13 @@
 const server = require("./src/app.js");
 const { conn } = require("./src/db.js");
 const { loadDB } = require("../api/src/Controllers/utils");
+require('dotenv').config();
 
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => {
-  server.listen(3001, () => {
+  server.listen(process.env.PORT, () => {
     loadDB();
-    console.log("%s listening at 3001");
+    console.log("%s listening at ", process.env.PORT);
     // eslint-disable-line no-console
   });
 });
