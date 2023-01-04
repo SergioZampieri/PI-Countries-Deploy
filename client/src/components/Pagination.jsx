@@ -16,7 +16,7 @@ export default function Pagination({countriesPerPage, allCountries, pagination,c
         {/* <li onClick={() => { if (currentPage!==1) {(pagination(currentPage-1))}}}> PREV</li> ESTO ESTA ROTO POR ESO NO LO IMPLEMENTO */}
         {pageNumbers &&
           pageNumbers.map((number) => { return( 
-            <button className={current === number? style.botpag:style.botpag2} key={number}>  
+            <button className={currentPage === number? style.botpag:style.botpag2} key={number}>  
               <a onClick={() => {return (pagination(number))}}>{number}</a>
             </button>);
           })}
