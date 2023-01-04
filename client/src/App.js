@@ -7,7 +7,7 @@ import Detail  from './components/Detail';
 import Error404 from './components/Error404'
 import Loading from './components/Loading';
 import axios from 'axios';
-axios.defaults.baseURL = 'https://pi-countries-deploy-production.up.railway.app'
+axios.defaults.baseURL = 'https://pi-countries-deploy-production.up.railway.app/'
 
 function App() {
   return (
