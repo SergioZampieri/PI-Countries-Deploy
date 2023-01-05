@@ -44,14 +44,12 @@ export default function Home() {
     e.preventDefault();
     dispatch(filterCountryByRegion(e.target.value));
     setCurrentPage(1);
-    setOrder(`Ordered ${e.target.value}`);
   }
 
   function handleFilteredActivity(e) {
     e.preventDefault();
     dispatch(filterCountryByActivity(e.target.value))
     setCurrentPage(1);
-    setOrder(`Ordered ${e.target.value}`);
   }
 
   function handleFilteredOrder(e) {
